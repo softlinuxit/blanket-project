@@ -1,0 +1,103 @@
+.footer {
+    background-color: #C8E2DE;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footerBgColor {
+    background-color: #C8E2DE;
+}
+
+hr {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.footerSectionOne {
+    padding-bottom: 30px;
+}
+
+.footerText {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.footerInputContainer {
+    padding-top: 20px;
+}
+
+.footerInput {
+    background-color: #F2F2F2;
+    border: 0;
+    padding: 14px 0 14px 8px;
+    margin-right: 8px;
+}
+
+.footerBtn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 28px;
+    text-transform: uppercase;
+}
+
+.footerSectionTwo {
+    text-transform: uppercase;
+    padding: 24px 0;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footerTextOnline {
+    color: #35363A;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+
+.footerTextBlanket {
+    color: #FFBF00;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.footerTextContainer {
+    padding-top: 20px;
+}
+
+.footerTextConditions {
+    color: #046A86;
+    /* padding: 20px; */
+    /* font-size: 18px;
+    font-weight: 600; */
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.footerIconContainer {
+    color: #000000;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footerIcon {
+    padding: 0 16px;
+}
+
+.footerBlow {
+    background-color: #046A86;
+    color: #FDFEFF;
+    /* text-align: center;
+    padding: 20px 0;
+    font-size: 20px; */
+    letter-spacing: 2px;
+}
+
+.footerBlowText {
+    text-transform: uppercase;
+}
+
+.footerLogo {
+    width: 20%;
+}

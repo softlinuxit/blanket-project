@@ -1,0 +1,27 @@
+.bannerContainer {
+    background-color: #E7F7FC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+
+.contactBg {
+    background-color: #E7F7FC;
+}
+
+.bannerTextContainer {
+    display: flex;
+    align-items: center;
+}
+
+.bannerText {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerTextHeading {
+    font-size: 60px;
+    text-transform: uppercase;
+}

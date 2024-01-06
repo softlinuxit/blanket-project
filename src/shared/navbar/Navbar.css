@@ -1,0 +1,77 @@
+.header {
+    background-color: #046A85;
+    /* padding: 16px 36px 8px 36px;
+    display: flex;
+    justify-content: space-between; */
+}
+
+.headerText {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #FDFEFF;
+}
+
+.headerIcon {
+    padding: 0 6px;
+}
+
+.nav {
+    padding: 6px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .navLogo {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+} */
+.navLogo {
+    width: 8%;
+}
+
+.navLogoOnline {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.navLogoBlanket {
+    color: #FFBF00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.navBtn {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.navBtnText {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+.active {
+    color: #FFBF00;
+    font-weight: 700;
+    /* border-bottom: 3px solid #FFBF00; */
+}
+
+.navIcon {
+    width: 30px;
+    padding-left: 20px;
+}
+
+.downIcon {
+    width: 14px;
+}
+
+.lineIcon {
+    width: 60px;
+}

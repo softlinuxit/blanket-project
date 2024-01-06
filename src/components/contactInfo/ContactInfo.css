@@ -1,0 +1,40 @@
+.contactInfoContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #EEF6FF;
+    margin: 40px 0;
+}
+
+.contactBgColor {
+    background-color: #EEF6FF;
+}
+
+.contactInfo {
+    text-align: center;
+    padding: 16px 0 34px 0;
+}
+
+.contactTextComponent {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfoText {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.contactInfoNumber {
+    color: #046A86;
+    font-weight: 600;
+    padding: 4px 0;
+}
+
+.contactText {
+    color: #046A86;
+}
+
+.contactInfoPhone {
+    color: #A8A9AB;
+}

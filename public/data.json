@@ -1,0 +1,296 @@
+[
+    {
+        "id": 1,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Abstract Printed Reversible",
+        "price": 2100.00,
+        "discountPrice": 2800.00,
+        "stock": 2,
+        "category": "Quilt"
+    },
+    {
+        "id": 2,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Heavy Winter Double side",
+        "price": 2100.00,
+        "discountPrice": 1800.00,
+        "stock": 2,
+        "category": "Quilt"
+    },
+    {
+        "id": 3,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Luxury Soft double side",
+        "price": 2100.00,
+        "discountPrice": 1800.00,
+        "stock": 2,
+        "category": "Quilt"
+    },
+    {
+        "id": 4,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Microfiber Printed Double side",
+        "price": 2100.00,
+        "discountPrice": 1800.00,
+        "stock": 2,
+        "category": "Quilt"
+    },
+    {
+        "id": 5,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Microfiber Reversible Comforter",
+        "price": 2100.00,
+        "discountPrice": 1800.00,
+        "stock": 2,
+        "category": "Quilt"
+    },
+    {
+        "id": 6,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Super Soft Microfiber Heavy",
+        "price": 2100.00,
+        "discountPrice": 1800.00,
+        "stock": 2,
+        "category": "Quilt"
+    },
+    {
+        "id": 11,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Chenille Weighted Blankets",
+        "price": 2100.00,
+        "discountPrice": 1800.00,
+        "stock": 2,
+        "category": "Soft Blanket"
+    },
+    {
+        "id": 22,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Double-Sided Weighted Blankets",
+        "price": 2100.00,
+        "discountPrice": 1800.00,
+        "stock": 2,
+        "category": "Soft Blanket"
+    },
+    {
+        "id": 33,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Luxury Heavy Blankets",
+        "price": 2100.00,
+        "discountPrice": 1800.00,
+        "stock": 2,
+        "category": "Soft Blanket"
+    },
+    {
+        "id": 44,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Minky Weighted Blankets",
+        "price": 2100.00,
+        "discountPrice": 1800.00,
+        "stock": 2,
+        "category": "Soft Blanket"
+    },
+    {
+        "id": 55,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Plush Weighted Blankets",
+        "price": 2100.00,
+        "discountPrice": 1800.00,
+        "stock": 2,
+        "category": "Soft Blanket"
+    },
+    {
+        "id": 111,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Cloud-Like Blanket (Super Soft)",
+        "price": 3200.00,
+        "discountPrice": 2000.00,
+        "stock": 2,
+        "category": "Super Soft Blanket"
+    },
+    {
+        "id": 222,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Downy Comfort Blanket (Super Soft)",
+        "price": 3200.00,
+        "discountPrice": 2000.00,
+        "stock": 2,
+        "category": "Super Soft Blanket"
+    },
+    {
+        "id": 333,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Dreamy Comfort Blanket (Super Soft)",
+        "price": 3200.00,
+        "discountPrice": 2000.00,
+        "stock": 2,
+        "category": "Super Soft Blanket"
+    },
+    {
+        "id": 444,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Heavenly Soft Blanket (Super Soft)",
+        "price": 3200.00,
+        "discountPrice": 2000.00,
+        "stock": 2,
+        "category": "Super Soft Blanket"
+    },
+    {
+        "id": 555,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Ultra Cozy Blanket (Super Soft)",
+        "price": 3200.00,
+        "discountPrice": 2000.00,
+        "stock": 2,
+        "category": "Super Soft Blanket"
+    },
+    {
+        "id": 666,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Ultra Cozy Blanket (Super Soft)",
+        "price": 3200.00,
+        "discountPrice": 2000.00,
+        "stock": 2,
+        "category": "Super Soft Blanket"
+    },
+    {
+        "id": 777,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Ultra Cozy Blanket (Super Soft)",
+        "price": 3200.00,
+        "discountPrice": 2000.00,
+        "stock": 2,
+        "category": "Super Soft Blanket"
+    },
+    {
+        "id": 888,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Ultra Cozy Blanket (Super Soft)",
+        "price": 3200.00,
+        "discountPrice": 2000.00,
+        "stock": 2,
+        "category": "Super Soft Blanket"
+    },
+    {
+        "id": 1111,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Soft Baby blanket",
+        "price": 850.00,
+        "discountPrice": 600.00,
+        "stock": 2,
+        "category": "Baby Blanket"
+    },
+    {
+        "id": 2222,
+        "img": [
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048",
+            "https://authenticity50.com/cdn/shop/articles/Authenticity50_Cotton_Blankets.jpg?v=1651241768&width=2048"
+        ],
+        "alt": "",
+        "name": "Super soft Baby blanket",
+        "price": 850.00,
+        "discountPrice": 800.00,
+        "stock": 2,
+        "category": "Baby Blanket"
+    }
+]

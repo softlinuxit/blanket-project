@@ -1,0 +1,115 @@
+.heroContainer {
+    /* display: flex; */
+}
+
+.heroText {
+    display: flex;
+    align-items: center;
+    margin-top: -250px;
+    padding-left: 36px;
+}
+
+.heroTextHOne {
+    font-size: 40px;
+    color: #046A86;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.heroTextHOneSpan {
+    color: #FFBF00;
+}
+
+.heroHurryTextContainer {
+    padding-bottom: 20px;
+}
+
+.heroTextHurry {
+    font-size: 40px;
+    font-family: PlayfairDisplayRoman;
+}
+
+.heroTextPara {
+    font-size: 12px;
+}
+
+.heroFormTextContainer {
+    padding-bottom: 20px;
+}
+
+.heroFormText {
+    font-size: 30px;
+}
+
+.heroFormPara {
+    font-size: 14px;
+}
+
+.heroSectionRight {
+    background: linear-gradient(to top, #FDFEFF 0%, #046A86 100%);
+    margin: 0 12px;
+    text-align: center;
+    padding: 16px 24px 0 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.heroInputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroIconContainer {
+    background-color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    bottom: 0;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.23);
+}
+
+.heroIcon {
+    width: 25%;
+}
+
+.heroInputEmail {
+    padding: 18px;
+    border: #ffffff;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+}
+
+.heroInputEmail::placeholder {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.heroInputPhone {
+    padding: 18px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    margin: 10px 0;
+    background-color: transparent;
+}
+
+.heroInputPhone::placeholder {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.heroFormBtn {
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 0;
+    background-color: #FFBF00;
+    color: #ffffff;
+    padding: 16px 0;
+    border-radius: 50px;
+}
+
+.heroFormOrText {
+    font-size: 12px;
+}

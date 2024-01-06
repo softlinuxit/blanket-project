@@ -1,0 +1,45 @@
+.ourStoryContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+    align-items: center;
+}
+
+.aboutImg {
+    background-color: #EEAFD1;
+    border-radius: 90px;
+    padding: 50px;
+}
+
+.aboutImgBg {
+    background-color: #EEAFD1;
+}
+
+.aboutTextContainer {
+    padding: 0 20px;
+}
+
+.aboutTitleBG {
+    background-color: #FFBF00;
+    color: #046A85;
+}
+
+.aboutTitle {
+    background-color: #FFBF00;
+    color: #046A85;
+    padding: 10px 36px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.aboutParaColor {
+    color: #808080;
+}
+
+.aboutSecondTitlePara {
+    color: #808080;
+    line-gap-override: 20px;
+}

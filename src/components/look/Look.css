@@ -1,0 +1,99 @@
+.lookContainer {
+    padding: 40px;
+    text-align: center;
+}
+
+.featureText {
+    font-size: 32px;
+    color: #046A86;
+    font-family: PlayfairDisplayRoman;
+    padding: 10px 0;
+}
+
+.featureTextColor {
+    color: #046A86;
+}
+
+.featureTextSpan {
+    color: #606060;
+}
+
+.lookingBtnContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 60px;
+}
+
+.lookingBtn1 {
+    background-color: #046A85;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 24px 36px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 0;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.23);
+    /* width: 320px; */
+    text-transform: uppercase;
+}
+
+.lookBtn1 {
+    background-color: #046A85;
+    color: #ffffff;
+}
+
+.lookBtn2 {
+    background-color: #ffffff;
+    color: #046A85;
+    border: 1px solid #046A85;
+}
+
+.lookingBtn2 {
+    background-color: #ffffff;
+    color: #046A85;
+    border-radius: 50px;
+    padding: 24px 36px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 1px solid #046A85;
+    /* width: 320px; */
+    text-transform: uppercase;
+}
+
+.lookingFooterBg {
+    background-color: #FAEFD0;
+    color: #046A86;
+}
+
+.lookingFooterContainer {
+    background-color: #FAEFD0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 36px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 28px 0;
+    color: #046A86;
+}
+
+.lookingText1 {
+    font-weight: 600;
+}
+
+.lookFooterText {
+    color: #E20534;
+}
+
+.lookingText2 {
+    color: #E20534;
+    font-weight: 700;
+}
+
+.lookingText3 {
+    font-weight: 600;
+}

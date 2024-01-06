@@ -1,0 +1,49 @@
+.featureContainer {
+    padding: 40px;
+}
+
+.featureHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featureTitle {
+    text-transform: uppercase;
+    background-color: #FFBF00;
+    color: #046A85;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.featureTitleBg {
+    background-color: #FFBF00;
+    color: #046A85;
+}
+
+.featureBtn {
+    border: 0;
+    background-color: #ffffff;
+}
+
+.featureBtnImg {
+    width: 95%;
+}
+
+.featureText {
+    font-size: 32px;
+    color: #046A86;
+    font-family: PlayfairDisplayRoman;
+    padding: 10px 0;
+}
+
+.featureTextColor {
+    color: #046A86;
+}
+
+.featureTextSpan {
+    color: #606060;
+}

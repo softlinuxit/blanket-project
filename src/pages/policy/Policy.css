@@ -1,0 +1,40 @@
+.privacyContainer {
+    padding: 50px 100px;
+}
+
+p,
+li {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.privacyTitle {
+    text-align: center;
+    color: #2B2B2B;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.privacyTextColor {
+    color: #2B2B2B;
+}
+
+.privacyHeading {
+    color: #2B2B2B;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.listStyle {
+    list-style: none;
+    line-height: 30px;
+    text-align: left;
+}
+
+.listText {
+    color: #046A85;
+}
+
+.listTextBold {
+    font-weight: 600;
+}

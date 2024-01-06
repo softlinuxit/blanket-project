@@ -1,0 +1,63 @@
+.feelContainer {
+    display: flex;
+    background: linear-gradient(to left, #FFBF00 0%, #046A86 100%);
+    border-radius: 30px;
+    padding: 40px 16px 0 16px;
+}
+
+.feelBg {
+    background: linear-gradient(to left, #FFBF00 0%, #046A86 100%);
+}
+
+.feelImg {
+    width: 80%;
+    margin-bottom: -80px;
+}
+
+.feelTextContainer {
+    text-align: center;
+}
+
+.feelTitleBg {
+    background-color: #FFBF00;
+    color: #046A85;
+}
+
+.feelTitle {
+    text-transform: uppercase;
+    padding: 10px 0;
+    background-color: #FFBF00;
+    color: #046A85;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.feelSecondTitle {
+    color: #ffffff;
+    font-size: 36px;
+    padding-top: 16px;
+}
+
+.feelPara {
+    color: #ffffff;
+    font-size: 28px;
+    padding: 20px 0;
+}
+
+.feelBtnBg {
+    color: #046A86;
+    background-color: #ffffff;
+}
+
+.feelBtn {
+    border: 0;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #046A86;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 16px 24px;
+}

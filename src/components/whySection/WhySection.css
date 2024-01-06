@@ -1,0 +1,36 @@
+.whyContainer {
+    background-color: #E7F7FC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.aboutBgColor {
+    background-color: #E7F7FC;
+}
+
+.whyBgColor {
+    background-color: #FFBF00;
+    color: #046A85;
+}
+
+.bannerTextContainer {
+    display: flex;
+    align-items: center;
+}
+
+.bannerText {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerTextHeading {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.bannerTextSpan {
+    color: #046A85;
+}

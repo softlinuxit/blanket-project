@@ -1,0 +1,98 @@
+.formContainer {
+    background-color: #F4F2E0;
+    color: #046A86;
+    padding: 40px 90px;
+    text-align: center;
+}
+
+.formBg {
+    background-color: #F4F2E0;
+    color: #046A86;
+}
+
+.formTextContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.formTitle {
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.formPara {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.formInputContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.formInputColor {
+    background-color: #F4F2E0;
+    border: 2px solid #046A85;
+}
+
+.formInput {
+    background-color: #F4F2E0;
+    padding: 16px 0;
+    border: 2px solid #046A85;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+.formInputColor {
+    color: #046A85;
+}
+
+.formInputColor::placeholder {
+    color: #046A85;
+}
+
+.formInput::placeholder {
+    text-transform: uppercase;
+    padding-left: 16px;
+    color: #046A85;
+    font-weight: 600;
+}
+
+.formInputForText {
+    background-color: #F4F2E0;
+    border: 2px solid #046A85;
+    border-radius: 20px;
+    padding: 20px 0 120px 0;
+    margin: 10px 0;
+}
+
+.formInputForText::placeholder {
+    text-transform: uppercase;
+    padding-left: 16px;
+    color: #046A85;
+    font-weight: 600;
+    text-align: start;
+}
+
+.formBtn {
+    background-color: #046A85;
+    color: #ffffff;
+}
+
+.formInputBtn {
+    background-color: #046A85;
+    color: #ffffff;
+    border: 0;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 16px 58px;
+    margin: 20px 0;
+}
