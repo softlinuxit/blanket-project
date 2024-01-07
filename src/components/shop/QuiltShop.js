@@ -9,7 +9,6 @@ import SingleQuilt from './SingleQuilt';
 import Loader from '../../shared/Loader';
 
 const QuiltShop = () => {
-    const [productData, setProductData] = useState([]);
     const [sortedData, setSortedData] = useState([]);
 
     useEffect(() => {
@@ -20,8 +19,8 @@ const QuiltShop = () => {
                     throw new Error('Network response was not ok.');
                 }
                 const data = await response.json();
-                setProductData(data);
-                setSortedData(data.filter(item => item.category === 'Quilt'));
+                const filteredBabyBlankets = data.filter(item => item.category === 'Quilt');
+                setSortedData(filteredBabyBlankets);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -32,19 +31,17 @@ const QuiltShop = () => {
 
     const handleChange = (e) => {
         const selectedOption = e.target.value;
-        let sortedProducts = [...sortedData];
 
         if (selectedOption === 'highToLow') {
-            sortedProducts.sort((a, b) => b.price - a.price);
+            const sortedByPriceHighToLow = [...sortedData].sort((a, b) => b.discountPrice - a.discountPrice);
+            setSortedData(sortedByPriceHighToLow);
         } else if (selectedOption === 'lowToHigh') {
-            sortedProducts.sort((a, b) => a.price - b.price);
-        } else {
-            // Reset to default sorting or original order
-            sortedProducts = [...productData.filter(item => item.category === 'Quilt')];
+            const sortedByPriceLowToHigh = [...sortedData].sort((a, b) => a.discountPrice - b.discountPrice);
+            setSortedData(sortedByPriceLowToHigh);
         }
-
-        setSortedData(sortedProducts);
     };
+
+
 
     // const productData = [
     //     { id: 1, img: img1, alt: '', name: 'Abstract Printed Reversible', price: 2100.00, discountPrice: 1800.00, stock: 2, category: 'Quilt' },

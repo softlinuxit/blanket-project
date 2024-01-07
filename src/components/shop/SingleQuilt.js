@@ -33,9 +33,8 @@ const SingleQuilt = ({ data }) => {
             <div className='flex flex-col items-center py-6'>
                 <Link
                     to={`/products/${data.id}`}>
-                    <h3 className='text-lg'>{data.name}</h3>
+                    <h3 className='text-base'>{data.name}</h3>
                 </Link>
-                {/* <h3 className='text-lg'>{data.name}</h3> */}
                 <div className='flex pt-2'>
                     <FaStar color='#7F7F7F' />
                     <FaStar color='#7F7F7F' />
@@ -47,21 +46,13 @@ const SingleQuilt = ({ data }) => {
                     <p className='productPriceColor text-base line-through'>${data.price}</p>
                     <p className='productPriceColor ps-2 text-base'>${data.discountPrice}</p>
                 </div>
-                <div className='flex'>
-                    <Link
-                        to={`/products/${data.id}`}
-                        className='flex items-center py-2 px-4 mr-2 rounded-full productButton'>
-                        <FaCartPlus className='me-2' />
-                        View Cart
-                    </Link>
-                    <button
-                        className='flex items-center py-2 px-4 rounded-full productButton'
-                        onClick={() => addToCart(data.id, data.img[0], data.name, data.discountPrice)}
-                    >
-                        <FaCartPlus className='me-2' />
-                        Add to Cart
-                    </button>
-                </div>
+                <button
+                    className='flex items-center py-2 px-4 rounded-full productButton'
+                    onClick={() => addToCart(data.id, data.img[0], data.name, data.discountPrice)}
+                >
+                    <FaCartPlus className='me-2' />
+                    Add to Cart
+                </button>
             </div>
         </div>
     );

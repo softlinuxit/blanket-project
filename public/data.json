@@ -121,7 +121,7 @@
         "alt": "",
         "name": "Luxury Heavy Blankets",
         "price": 2100.00,
-        "discountPrice": 1800.00,
+        "discountPrice": 1600.00,
         "stock": 2,
         "category": "Soft Blanket"
     },
@@ -149,7 +149,7 @@
         "alt": "",
         "name": "Plush Weighted Blankets",
         "price": 2100.00,
-        "discountPrice": 1800.00,
+        "discountPrice": 1900.00,
         "stock": 2,
         "category": "Soft Blanket"
     },
@@ -163,7 +163,7 @@
         "alt": "",
         "name": "Cloud-Like Blanket (Super Soft)",
         "price": 3200.00,
-        "discountPrice": 2000.00,
+        "discountPrice": 3000.00,
         "stock": 2,
         "category": "Super Soft Blanket"
     },
@@ -191,7 +191,7 @@
         "alt": "",
         "name": "Dreamy Comfort Blanket (Super Soft)",
         "price": 3200.00,
-        "discountPrice": 2000.00,
+        "discountPrice": 2200.00,
         "stock": 2,
         "category": "Super Soft Blanket"
     },

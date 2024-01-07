@@ -1,17 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import img1 from '../../assets/images/super-soft-blanket/Product image.jpg'
-import img2 from '../../assets/images/super-soft-blanket/Product image (1).jpg'
-import img3 from '../../assets/images/super-soft-blanket/Product image (2).jpg'
-import img4 from '../../assets/images/super-soft-blanket/Product image (3).jpg'
-import img5 from '../../assets/images/super-soft-blanket/Product image (4).jpg'
-import img6 from '../../assets/images/super-soft-blanket/Product image (5).jpg'
-import img7 from '../../assets/images/super-soft-blanket/Product image (6).jpg'
-import img8 from '../../assets/images/super-soft-blanket/Product image (7).jpg'
 import SingleQuilt from './SingleQuilt';
 import Loader from '../../shared/Loader';
 
 const SuperSoftBlanket = () => {
-    const [productData, setProductData] = useState([]);
+    const [sortedData, setSortedData] = useState([]);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -21,9 +13,8 @@ const SuperSoftBlanket = () => {
                     throw new Error('Network response was not ok.');
                 }
                 const data = await response.json();
-
-                const quiltProducts = data.filter(item => item.category === 'Super Soft Blanket');
-                setProductData(quiltProducts);
+                const filteredBabyBlankets = data.filter(item => item.category === 'Super Soft Blanket');
+                setSortedData(filteredBabyBlankets);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -32,29 +23,37 @@ const SuperSoftBlanket = () => {
         fetchData();
     }, []);
 
-    // const productData = [
-    //     { id: 111, img: img1, alt: '', name: 'Cloud-Like Blanket (Super Soft)', price: 3200.00, discountPrice: 2000.00 },
-    //     { id: 222, img: img2, alt: '', name: 'Downy Comfort Blanket (Super Soft)', price: 3200.00, discountPrice: 2000.00 },
-    //     { id: 333, img: img3, alt: '', name: 'Dreamy Comfort Blanket (Super Soft)', price: 3200.00, discountPrice: 2000.00 },
-    //     { id: 444, img: img4, alt: '', name: 'Heavenly Soft Blanket (Super Soft)', price: 3200.00, discountPrice: 2000.00 },
-    //     { id: 555, img: img5, alt: '', name: 'Super Soft Double Bed Heavy Blanket (Super Soft)', price: 3200.00, discountPrice: 2000.00 },
-    //     { id: 666, img: img6, alt: '', name: 'Super Warm (Super Soft)', price: 3200.00, discountPrice: 2000.00 },
-    //     { id: 777, img: img7, alt: '', name: 'Supreme Softness Blanket (Super Soft)', price: 3200.00, discountPrice: 2000.00 },
-    //     { id: 888, img: img8, alt: '', name: 'Ultra Cozy Blanket (Super Soft)', price: 3200.00, discountPrice: 2000.00 }
-    // ]
+    const handleChange = (e) => {
+        const selectedOption = e.target.value;
+
+        if (selectedOption === 'highToLow') {
+            const sortedByPriceHighToLow = [...sortedData].sort((a, b) => b.discountPrice - a.discountPrice);
+            setSortedData(sortedByPriceHighToLow);
+        } else if (selectedOption === 'lowToHigh') {
+            const sortedByPriceLowToHigh = [...sortedData].sort((a, b) => a.discountPrice - b.discountPrice);
+            setSortedData(sortedByPriceLowToHigh);
+        }
+    };
+
     return (
-        <>
+        <div className='md:px-10 lg:px-20 py-6'>
+            <div className='flex lg:justify-between justify-center items-center py-6'>
+                <div className='hidden lg:block'>Showing all {sortedData?.length} results</div>
+                <select className='border py-2 px-4' onChange={handleChange}>
+                    <option value="default">Default sorting</option>
+                    <option value="highToLow">Sort by price: high to low</option>
+                    <option value="lowToHigh">Sort by price: low to high</option>
+                </select>
+            </div>
             {
-                productData.length ?
-                    <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 md:px-10 lg:px-20 py-16'>
-                        {
-                            productData.map(data => <SingleQuilt data={data} />)
-                        }
+                sortedData?.length ?
+                    <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
+                        {sortedData.map(data => <SingleQuilt key={data.id} data={data} />)}
                     </div>
                     :
                     <Loader />
             }
-        </>
+        </div>
     );
 };
 

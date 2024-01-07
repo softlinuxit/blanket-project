@@ -14,7 +14,8 @@ const AllProducts = () => {
                 }
                 const data = await response.json();
 
-                setProductData(data);
+                // setProductData(data);
+                setSortedData(data)
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -23,27 +24,28 @@ const AllProducts = () => {
         fetchData();
     }, []);
 
+
     const handleChange = (e) => {
         const selectedOption = e.target.value;
 
         if (selectedOption === 'highToLow') {
-            const sortedByPriceHighToLow = [...sortedData].sort((a, b) => b.price - a.price);
+            const sortedByPriceHighToLow = [...sortedData].sort((a, b) => b.discountPrice - a.discountPrice);
             setSortedData(sortedByPriceHighToLow);
         } else if (selectedOption === 'lowToHigh') {
-            const sortedByPriceLowToHigh = [...sortedData].sort((a, b) => a.price - b.price);
+            const sortedByPriceLowToHigh = [...sortedData].sort((a, b) => a.discountPrice - b.discountPrice);
             setSortedData(sortedByPriceLowToHigh);
         } else if (selectedOption === 'category') {
             const sortedByCategory = [...sortedData].sort((a, b) => a.category.localeCompare(b.category));
             setSortedData(sortedByCategory);
-        } else {
-            setSortedData(productData);
         }
     };
 
+    console.log('sort', sortedData)
+    console.log('product', productData)
     return (
         <div className='py-4 px-8'>
             <div className='flex lg:justify-between justify-center items-center py-6'>
-                <div className='hidden lg:block'>Showing all {productData.length} results</div>
+                <div className='hidden lg:block'>Showing all {sortedData.length} results</div>
                 <select className='border py-2 px-4' onChange={handleChange}>
                     <option value="default">Default sorting</option>
                     <option value="highToLow">Sort by price: high to low</option>
@@ -53,7 +55,7 @@ const AllProducts = () => {
                 </select>
             </div>
             {
-                productData?.length ?
+                sortedData?.length ?
                     <div className='relative overflow-x-auto'>
                         <table className='w-5/6 m-auto'>
                             <thead className='border-b'>

@@ -4,7 +4,6 @@ import Loader from '../shared/Loader';
 import { FaAngleDown } from "react-icons/fa";
 
 const Shop = () => {
-    const [productData, setProductData] = useState([]);
     const [sortedData, setSortedData] = useState([]);
 
     useEffect(() => {
@@ -15,7 +14,6 @@ const Shop = () => {
                     throw new Error('Network response was not ok.');
                 }
                 const data = await response.json();
-                setProductData(data);
                 setSortedData(data);
             } catch (error) {
                 console.error('Error fetching data:', error);
@@ -29,23 +27,21 @@ const Shop = () => {
         const selectedOption = e.target.value;
 
         if (selectedOption === 'highToLow') {
-            const sortedByPriceHighToLow = [...sortedData].sort((a, b) => b.price - a.price);
+            const sortedByPriceHighToLow = [...sortedData].sort((a, b) => b.discountPrice - a.discountPrice);
             setSortedData(sortedByPriceHighToLow);
         } else if (selectedOption === 'lowToHigh') {
-            const sortedByPriceLowToHigh = [...sortedData].sort((a, b) => a.price - b.price);
+            const sortedByPriceLowToHigh = [...sortedData].sort((a, b) => a.discountPrice - b.discountPrice);
             setSortedData(sortedByPriceLowToHigh);
         } else if (selectedOption === 'category') {
             const sortedByCategory = [...sortedData].sort((a, b) => a.category.localeCompare(b.category));
             setSortedData(sortedByCategory);
-        } else {
-            setSortedData(productData);
         }
     };
 
     return (
         <div className='md:px-10 lg:px-20 py-6'>
             <div className='flex lg:justify-between justify-center items-center py-6'>
-                <div className='hidden lg:block'>Showing all {productData.length} results</div>
+                <div className='hidden lg:block'>Showing all {sortedData.length} results</div>
                 <select className='border py-2 px-4' onChange={handleChange}>
                     <option value="default">Default sorting</option>
                     <option value="highToLow">Sort by price: high to low</option>
@@ -53,17 +49,7 @@ const Shop = () => {
                     <option value="category">Sort by category</option>
                     <option value="tags">Sort by tags</option>
                 </select>
-                {/* <div className="relative">
-                    <button
-                        className='flex items-center border py-2 px-4'
-                        onClick={() => setOpenFilter(!openFilter)}><span className='pe-16'>Default sorting</span> <FaAngleDown /></button>
-                    <div className={`absolute top-full left-0 p-2 w-48 bg-white shadow-lg z-50 ${openFilter ? 'block' : 'hidden'}`}>
-                        <button className='py-1 cartText font-medium'>Sort by price: high to low</button>
-                        <button className='py-1 border-b'>Sort by price: low to high</button>
-                        <button className='py-1 border-b'>Sort by category</button>
-                        <button className='py-1'>Sort by tags</button>
-                    </div>
-                </div> */}
+
             </div>
             {
                 sortedData?.length ?

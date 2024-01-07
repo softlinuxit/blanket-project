@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import img1 from '../../assets/images/baby-blanket/baby1.jpg'
-import img2 from '../../assets/images/baby-blanket/baby2.jpg'
 import SingleQuilt from './SingleQuilt';
 import Loader from '../../shared/Loader';
 
 const BabyBlanket = () => {
-    const [productData, setProductData] = useState([]);
     const [sortedData, setSortedData] = useState([]);
 
     useEffect(() => {
@@ -16,8 +13,7 @@ const BabyBlanket = () => {
                     throw new Error('Network response was not ok.');
                 }
                 const data = await response.json();
-                setProductData(data);
-                const filteredBabyBlankets = productData.filter(item => item.category === 'Baby Blanket');
+                const filteredBabyBlankets = data.filter(item => item.category === 'Baby Blanket');
                 setSortedData(filteredBabyBlankets);
             } catch (error) {
                 console.error('Error fetching data:', error);
@@ -31,22 +27,13 @@ const BabyBlanket = () => {
         const selectedOption = e.target.value;
 
         if (selectedOption === 'highToLow') {
-            const sortedByPriceHighToLow = [...sortedData].sort((a, b) => b.price - a.price);
+            const sortedByPriceHighToLow = [...sortedData].sort((a, b) => b.discountPrice - a.discountPrice);
             setSortedData(sortedByPriceHighToLow);
         } else if (selectedOption === 'lowToHigh') {
-            const sortedByPriceLowToHigh = [...sortedData].sort((a, b) => a.price - b.price);
+            const sortedByPriceLowToHigh = [...sortedData].sort((a, b) => a.discountPrice - b.discountPrice);
             setSortedData(sortedByPriceLowToHigh);
-        } else {
-            const filteredBabyBlankets = productData.filter(item => item.category === 'Baby Blanket');
-            setSortedData(filteredBabyBlankets);
         }
     };
-
-
-    // const productData = [
-    //     { id: 1111, img: img1, alt: '', name: 'Soft Baby blanket', price: 850.00, discountPrice: 600.00 },
-    //     { id: 2222, img: img2, alt: '', name: 'Super soft Baby blanket', price: 850.00, discountPrice: 600.00 }
-    // ]
 
     return (
         <div className='md:px-10 lg:px-20 py-6'>

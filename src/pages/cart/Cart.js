@@ -60,7 +60,7 @@ const Cart = () => {
             </div>
             {/* Table */}
             {
-                cartItems.length ? <div className='flex'>
+                cartItems.length ? <div className='lg:flex'>
                     <div className='relative overflow-x-auto pe-4'>
                         <table className='w-full text-center'>
                             <thead className='border-b'>
@@ -103,7 +103,7 @@ const Cart = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='border w-1/2 m-auto p-6'>
+                    <div className='border lg:w-1/2 m-auto p-6'>
                         <h3 className='text-2xl'>Cart totals</h3>
                         <div className='flex justify-between border-b py-4'>
                             <span className='font-semibold text-sm'>Subtotal</span>
@@ -122,7 +122,7 @@ const Cart = () => {
                             <span className='text-xl'>Total</span>
                             <span className='text-xl font-semibold cartText'>${totalPrice}</span>
                         </div>
-                        <Link to={"/checkout"} className='productButton uppercase font-semibold py-2 lg:py-4 px-2 lg:px-10 rounded-full'>Proceed to checkout</Link>
+                        <Link to={"/cart"} className='productButton uppercase font-semibold py-2 lg:py-4 px-2 lg:px-10 rounded-full'>Proceed to checkout</Link>
                     </div>
                 </div>
                     :

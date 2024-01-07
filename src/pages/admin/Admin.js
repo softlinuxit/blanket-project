@@ -21,42 +21,39 @@ const Admin = () => {
     return (
         <>
             <AdminNav />
-            <div className=''>
+            <div className='lg:flex py-4 lg:py-0'>
 
-                <div className='flex'>
+                <div className=' lg:w-80 bg-gray-50 flex flex-col py-4'>
 
-                    <div className=' w-80 bg-gray-50 flex flex-col py-4'>
-
-                        <button
-                            className={`text-lg border-b py-4 ${activeTab === 'allProducts' ? 'cartText' : ''}`}
-                            onClick={() => setActiveTab('allProducts')}
-                        >
-                            All Products
-                        </button>
-                        <button
-                            className={`text-lg border-b py-4  ${activeTab === 'addProducts' ? 'cartText' : ''}`}
-                            onClick={() => setActiveTab('addProducts')}
-                        >
-                            Add New Product
-                        </button>
-                        <button
-                            className={`text-lg border-b py-4 ${activeTab === 'allUser' ? 'cartText' : ''}`}
-                            onClick={() => setActiveTab('allUser')}
-                        >
-                            All User
-                        </button>
+                    <button
+                        className={`text-lg border-b py-2 lg:py-4 ${activeTab === 'allProducts' ? 'cartText' : ''}`}
+                        onClick={() => setActiveTab('allProducts')}
+                    >
+                        All Products
+                    </button>
+                    <button
+                        className={`text-lg border-b py-2 lg:py-4  ${activeTab === 'addProducts' ? 'cartText' : ''}`}
+                        onClick={() => setActiveTab('addProducts')}
+                    >
+                        Add New Product
+                    </button>
+                    <button
+                        className={`text-lg border-b py-2 lg:py-4 ${activeTab === 'allUser' ? 'cartText' : ''}`}
+                        onClick={() => setActiveTab('allUser')}
+                    >
+                        All User
+                    </button>
+                </div>
+                <div>
+                    <div className='text-2xl text-center py-4 font-semibold cartText'>
+                        Admin Dashboard
                     </div>
-                    <div className=''>
-                        <div className='text-2xl text-center py-4 font-semibold cartText'>
-                            Admin Dashboard
-                        </div>
 
-                        {renderComponent()}
+                    {renderComponent()}
 
-
-                    </div>
 
                 </div>
+
             </div>
         </>
 
